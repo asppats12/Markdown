@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="#27282b"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">1
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:ems="10"
+        android:id="@+id/uname"
+        android:textColor = "#ffffff"
+        android:textColorHint = "#696969"
+        android:layout_above="@+id/pword"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/pword"
+        android:hint="Password"
+        android:textColor = "#ffffff"
+        android:textColorHint = "#696969"
+        android:contextClickable="false"
+        android:layout_above="@+id/button"
+        android:layout_alignStart="@+id/uname"
+        android:layout_marginBottom="122dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Login in to Sales Ad."
+        android:id="@+id/textView"
+        android:textColor = "#ffffff"
+        android:textSize = "30sp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+   <!-- <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:onClick="userSignUp"
+        android:id="@+id/Sign_Button"
+        android:background = "#808080"
+        android:textColor = "#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:onClick="userLogin"
+        android:id="@+id/button"
+        android:textColor="#ffffff"
+        android:background="@drawable/my_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src = "@drawable/ic_launcher_2"
+        android:layout_above="@+id/uname"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

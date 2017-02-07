@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="#27282b"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.dipeshpatel.markdown.RegistrationActivity"
+    android:id="@+id/Registration">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Name"
+        android:textColor = "#ffffff"
+        android:textColorHint = "#696969"
+        android:ems="10"
+        android:id="@+id/R_name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Username"
+        android:textColor = "#ffffff"
+        android:textColorHint = "#696969"
+        android:ems="10"
+        android:id="@+id/R_uname"
+        android:layout_below="@+id/R_name"
+        android:layout_alignStart="@+id/R_name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:textColor = "#ffffff"
+        android:textColorHint = "#696969"
+        android:ems="10"
+        android:id="@+id/R_password"
+        android:layout_below="@+id/R_uname"
+        android:layout_alignStart="@+id/R_uname" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor = "#ffffff"
+        android:textColorHint = "#696969"
+        android:id="@+id/Account_type"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/R_password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize = "20sp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Select Account Type: "
+        android:textColor = "#ffffff"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/R_password"
+        android:layout_alignStart="@+id/Account_type"
+        android:layout_above="@+id/Account_type" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:id="@+id/userReg"
+        android:layout_alignParentBottom="true"
+        android:background = "@drawable/my_button"
+        android:textColor = "#ffffff"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="userReg" />
+
+</RelativeLayout>
