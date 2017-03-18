@@ -66,7 +66,7 @@ public class AddNewSale extends AppCompatActivity {
             this.ctx = ctx;
         }
 
-        String salenv_url = "http://192.168.2.192/Markdown/add_sale.php";
+        String salenv_url = "http://192.168.2.192/Markdown_Backend/add_sale.php";
 
         @Override
         protected String doInBackground(String... params) {

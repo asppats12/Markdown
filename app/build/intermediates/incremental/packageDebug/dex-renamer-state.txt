@@ -1,4 +1,4 @@
-#Wed Feb 15 15:50:21 EST 2017
+#Sat Mar 18 00:52:12 EDT 2017
 base.0=C\:\\Users\\ADMIN\\AndroidStudioProjects\\Markdown\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d8843b454dd0289646d6bbc7a6a1ce7ff477dfa6
 renamed.1=classes2.dex
 renamed.0=classes.dex

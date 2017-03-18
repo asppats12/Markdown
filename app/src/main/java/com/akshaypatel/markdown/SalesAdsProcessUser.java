@@ -30,7 +30,7 @@ import java.util.HashMap;
 
 public class SalesAdsProcessUser extends AppCompatActivity{
 
-    private static final String retrievenv_url = "http://192.168.2.192/Markdown_Backend/JSONParse.php";
+    private static final String retrievenv_url = "http://192.168.2.192/Markdown_Backend/jsonparse.php";
     private static final String TAG_TITLE = "saletitle";
     private static final String TAG_DESC = "saledesc";
     private static final String TAG_STARTD = "startdate";

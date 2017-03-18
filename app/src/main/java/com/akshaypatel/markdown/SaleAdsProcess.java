@@ -38,7 +38,7 @@ public class SaleAdsProcess extends AppCompatActivity{
 
     //private static final String retrievenv_url = "http://10.0.2.2:81/SGP/JSONParse.php";
     //private static final String retrievenv_url = "http://172.28.0.1:81/SGP/JSONParse.php";
-    private static final String retrievenv_url = "http://192.168.43.254:81/SGP/JSONParse.php";
+    private static final String retrievenv_url = "http://192.168.2.192/Markdown_Backend/jsonparse.php";
     //private static final String retrievenv_url = "http://192.168.107.101:81/SGP/JSONParse.php";
     private static final String TAG_TITLE = "saletitle";
     private static final String TAG_DESC = "saledesc";
