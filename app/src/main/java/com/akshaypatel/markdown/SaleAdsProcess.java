@@ -108,7 +108,7 @@ public class SaleAdsProcess extends AppCompatActivity{
                 e.printStackTrace();
             }*/
             try{
-                URL phpexec = new URL("http://192.168.43.254:81/SGP/delete.php");
+                URL phpexec = new URL("http://192.168.2.192/Markdown_Backend/delete.php");
                 URLConnection pc = phpexec.openConnection();
                 BufferedReader in = new BufferedReader(new InputStreamReader(pc.getInputStream()));
                 String inputLine;

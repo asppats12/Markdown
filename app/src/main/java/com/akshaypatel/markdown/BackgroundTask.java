@@ -30,9 +30,9 @@ public class BackgroundTask extends AsyncTask<String, Void, String> {
 
     @Override
     protected String doInBackground(String... params) {
-        String regnv_url = "http://192.168.2.192/Markdown/register.php";
-        String loginnv_url = "http://192.168.2.192/Markdown/login.php";
-        String shopRegnv_url = "http://192.168.2.192/Markdown/shop_register.php";
+        String regnv_url = "http://192.168.2.192/Markdown_Backend/register.php";
+        String loginnv_url = "http://192.168.2.192/Markdown_Backend/login.php";
+        String shopRegnv_url = "http://192.168.2.192/Markdown_Backend/shop_register.php";
 
 
         String method = params[0];
